@@ -1,0 +1,1 @@
+# Resolução do execercío de Algoritmos
