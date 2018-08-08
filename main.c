@@ -1,4 +1,4 @@
-//Resolução Algoritmos
+//Resolução
 #include "stdio.h"
 #include "string.h"
 int main(){
@@ -37,7 +37,7 @@ int main(){
         
         out[i] = '\0';
 
-        printf("%s", out);
+        printf("%s\n", out);
         
     }
 
