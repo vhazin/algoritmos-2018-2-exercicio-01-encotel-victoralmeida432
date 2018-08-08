@@ -1,1 +1,1 @@
-# Resolução do Arquivo
+# Resolução de Algoritmos
