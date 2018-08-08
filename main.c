@@ -1,21 +1,20 @@
-//Resolução
+//Resolução Exercicío 1
 #include "stdio.h"
-#include "string.h"
 int main(){
 
-    char frase[30];
-    char out[30];
+    char frase[30] = "";
+    char out[30] = "";
 
-    while(scanf("%s",& frase != EOF))
+    while(scanf("%s",&frase) != EOF)
     {
         int i;
-        for(i = 0; i < strlen(frase); i++)
+        for(i = 0; i < 30; i++)
         {
             if(frase[i] == '-')
                 out[i] = '-';
             else if(frase[i] == '0')
                 out[i] = '0';            
-			      else if(frase[i] == '1')
+                else if(frase[i] == '1')
                 out[i] = '1';
             else if(frase[i] == 'A' || frase[i] == 'B' || frase[i] == 'C')
                 out[i] = '2';
@@ -33,11 +32,12 @@ int main(){
                 out[i] = '8';
             else if(frase[i] == 'W' || frase[i] == 'X' || frase[i] == 'Y' || frase[i] == 'Z')
                 out[i] = '9';
+            else if(frase[i] == ' '){
+            out[i] = '\0';
+            }
         }
         
-        out[i] = '\0';
-
-        printf("%s\n", out);
+        printf("%s", out);
         
     }
 
