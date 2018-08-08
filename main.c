@@ -6,7 +6,7 @@ int main(){
     char frase[30];
     char out[30];
 
-    while(scanf("%s", &frase) != EOF)
+    while(scanf("%s",& frase != EOF))
     {
         int i;
         for(i = 0; i < strlen(frase); i++)
