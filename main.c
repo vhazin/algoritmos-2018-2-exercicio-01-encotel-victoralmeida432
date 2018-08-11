@@ -1,4 +1,4 @@
-//Resolução Exercicío 1
+//Resolução
 #include "stdio.h"
 int main(){
 
@@ -32,12 +32,12 @@ int main(){
                 out[i] = '8';
             else if(frase[i] == 'W' || frase[i] == 'X' || frase[i] == 'Y' || frase[i] == 'Z')
                 out[i] = '9';
-            else if(frase[i] == ' '){
+            else {
             out[i] = '\0';
             }
         }
         
-        printf("%s", out);
+        printf("%s\n", out);
         
     }
 
