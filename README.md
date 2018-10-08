@@ -1,1 +1,1 @@
-# Resolução de Algoritmos
+Deleta professor, errei no Pull Request xD
